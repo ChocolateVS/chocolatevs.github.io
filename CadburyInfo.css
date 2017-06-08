@@ -1,29 +1,56 @@
+li a:hover {
+	color: purple;
+	background-color: 555;
+}
+li {
+	display: inline;
+	color: linear-gradient(to bottom, #9900cc 0%, #cc00cc 100%);
+	font-size: 1vw;
+	text-decoration: none;
+}
+a {
+	display: inline;
+	padding: 1% 2%;
+	border: 1%;
+	background-color: #cc00cc;
+	font-family: arial;
+	font-size: 1.5vw; 
+    text-decoration: none;	
+	}
+ul {
+	padding: 1%;
+	background-color: #cc00cc;
+	border: 1% solid purple;
+}
 .footer {
 	color: yellow;
-    position: absolute; bottom: 1px; left: 1px; 
+    position: absolute; bottom: 0%; left: 0%; 
 }	
 
 #cadbury {
-	position: absolute; left: 300px; top: 0px;
+	position: absolute; left: 25%; top: 13%;
 }
 
 #header1 { 
     color: yellow;
-	position: absolute; bottom: 280px; left: 100px;
+	position: absolute; bottom: 41%; left: 4.5%;
+	font-size: 1.5vw;
 }
 
 #header2 { 
     color: yellow;
-	position: absolute; bottom: 280px; right: 200px;
+	position: absolute; bottom: 41%; right: 12%;
+	font-size: 1.5vw;
 }
 	
 #header3 { 
     color: yellow;
-	position: absolute; bottom: 280px; right: 550px;
+	position: absolute; bottom: 41%; right: 38%;
+    font-size: 1.5vw;
 }
 	
 .CadburyNutrition {
-    position: absolute; bottom: 50px; left: 10px;
+    position: absolute; bottom: 9%; left: 2%;
     border: 1px solid yellow;
     color: yellow;
     border-collapse: collapse;
@@ -31,7 +58,7 @@
 }
 
 .price {
-	position: absolute; bottom: 50px; right: 225px;
+	position: absolute; bottom: 9%; right: 16%;
     border: 1px solid yellow;
     color: yellow;
     border-collapse: collapse;
@@ -40,18 +67,32 @@
 
 .servingsize1 {
     color: yellow;
-	position: absolute; bottom: 250px; left:100px
+	position: absolute; bottom: 38%; left:4.5%;
+	font-size: 1.3vw;
 }    
 
 .servingsize2 {
     color: yellow;
-	position: absolute; bottom: 220px; left: 100px
+	position: absolute; bottom: 33%; left: 4.5%;
+	font-size: 1.3vw;
+}
+
+
+tr {
+	font-size: 1vw;
+}
+
+p {
+	font-size: 1vw;
 }
 
 .Ingredients {
     color: yellow;
 	border: 1px solid yellow;
-	width: 300px;
-	height: 161px;
-	position: absolute; bottom: 33px; left: 600px;
-	font-size: 20px;
+	width: 23%;
+	height: 22%;
+	position: absolute; bottom: 6%; left: 44%;
+	font-size: 1.3vw;
+	
+	
+	
