@@ -1,0 +1,110 @@
+h1 {
+  font-size:300%;
+  color: #FFDF00;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 4vw; 
+}
+.footer { 
+  color: yellow;
+  position: absolute; bottom: 0%; left: 0%; 
+  font-size: 1vw;
+}
+
+#whittakers {
+	position: absolute; top: 13%; left: 1%; width:38%;
+}
+
+#cadbury {
+	position: absolute; top: 12%; right: 3%; width:38%;
+}
+
+#cadburychocolate {
+	position: absolute; right: 22%; top: 54%; width:6%;
+}
+
+#whittakerschocolate {
+	position: absolute; left: 16%; top: 55%; width:7%;
+}
+
+#vs {
+	position: absolute; top: 27%; left: 43%; width:13%;
+}
+li a:hover {
+	color: purple;
+	background-color: 555;
+}
+li {
+	display: inline;
+	color: linear-gradient(to bottom, #9900cc 0%, #cc00cc 100%);
+	font-size: 1vw;
+	text-decoration: none;
+}
+a {
+	display: inline;
+	padding: 1% 2%;
+	border: 1%;
+	background-color: #cc00cc;
+	font-family: arial;
+	font-size: 1.5vw; 
+    text-decoration: none;	
+	}
+ul {
+	padding: 1%;
+	background-color: #cc00cc;
+	border: 1% solid purple;
+}
+#WhittakersInfoLink  {
+    position: absolute; top: 80%; left: 19%; width:20%;
+    color: yellow;
+	font-size: 1vw;
+}
+#CadburyInfoLink {
+    position: absolute; top: 80%; right: 6%; width:20%;
+    color: yellow;
+	font-size: 1vw;
+}
+
+#Comparelink {
+	position: absolute; top: 56%; left: 48%; 
+	font-size: 1vw;
+}
+#SurveyLink {
+
+        font-size: 1vw;
+		text-align: center;
+}
+
+
+#surveyresults {
+position: absolute; top: 84%; left: 47%; 
+color: yellow;
+}
+.current {
+color: yellow;
+font-size: 14pt;
+position: absolute; top: 76%; left: 44%;
+font-size: 1vw;
+}
+
+.question1 {
+position: absolute; top: 300px; left: 80px;
+text-align: center;
+}
+
+#price {
+position: absolute; top: 40%; right: 60%;
+}
+
+#compare {
+text-align: center;
+}
+
+#grams {
+position: absolute; top: 40%; left: 60%;
+}
+
+#current {
+position: absolute; left: 20%
+}
+
