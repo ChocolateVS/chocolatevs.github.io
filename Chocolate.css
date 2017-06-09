@@ -40,15 +40,15 @@ li {
 }
 a {
 	display: inline;
-	padding: 1% 2%;
-	border: 1%;
+	padding: 0.8% 2%;
+	border: 1%; 
 	background-color: #cc00cc;
 	font-family: arial;
 	font-size: 1.5vw; 
     text-decoration: none;	
 	}
 ul {
-	padding: 1%;
+	padding: 0%;
 	background-color: #cc00cc;
 	border: 1% solid purple;
 }
